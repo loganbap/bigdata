@@ -6,7 +6,7 @@ spark = SparkSession.builder.appName("SentenceGenerator").getOrCreate()
 sc = spark.sparkContext
 
 # Word list
-words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew"]
+words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "strawberry"]
 
 # Generate sentences on the driver
 num_sentences = 1000
